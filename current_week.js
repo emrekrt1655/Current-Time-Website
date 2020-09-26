@@ -2,7 +2,7 @@ const button_week = document.getElementById("btn2");
   button_week.addEventListener("click", function(){
       document.getElementById("info").innerHTML = "The current " + button_week.value + " in your local zone  is ";
       document.getElementById("link").innerHTML = "Click to see how to display the " + button_week.value + " in Js ";
-      document.getElementById("link").setAttribute("href", "#")
+      document.getElementById("link").setAttribute("href", "https://github.com/emrekrt1655/Current-Time-Website/blob/master/current_week.js")
   
   })
 

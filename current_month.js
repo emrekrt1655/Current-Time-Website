@@ -9,7 +9,7 @@ const button_month = document.getElementById("btn3");
 button_month.addEventListener("click", function(){
     document.getElementById("info").innerHTML = "The current " + button_month.value + " in your local zone  is ";
     document.getElementById("link").innerHTML = "Click to see how to display the " + button_month.value + " in Js ";
-    document.getElementById("link").setAttribute("href", "#")
+    document.getElementById("link").setAttribute("href", "https://github.com/emrekrt1655/Current-Time-Website/blob/master/current_month.js")
 })
 button_month.addEventListener("click", current_month)
 

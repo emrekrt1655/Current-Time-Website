@@ -6,7 +6,7 @@ const button_year = document.getElementById("btn4");
 button_year.addEventListener("click", function(){
     document.getElementById("info").innerHTML = "The current " + button_year.value + " in your local zone  is ";
     document.getElementById("link").innerHTML = "Click to see how to display the " + button_year.value + " in Js ";
-    document.getElementById("link").setAttribute("href", "#")
+    document.getElementById("link").setAttribute("href", "https://github.com/emrekrt1655/Current-Time-Website/blob/master/current_year.js")
 })
 button_year.addEventListener("click", current_year)
 

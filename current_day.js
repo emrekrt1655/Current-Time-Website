@@ -7,7 +7,7 @@ const button_day = document.getElementById("btn1");
 button_day.addEventListener("click", function(){
     document.getElementById("info").innerHTML = "The current " + button_day.value + " in your local zone  is ";
     document.getElementById("link").innerHTML = "Click to see how to display the " + button_day.value + " in Js ";
-    document.getElementById("link").setAttribute("href", "#")
+    document.getElementById("link").setAttribute("href", "https://github.com/emrekrt1655/Current-Time-Website/blob/master/current_day.js")
 })
 button_day.addEventListener("click", current_day)
 
